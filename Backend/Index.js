@@ -9,7 +9,7 @@ const fileUpload = require('express-fileupload')
 
 
 const taskRouter = require("./Routes/taskRouter")
-const userRouter = require("./Routes/userRouter")
+const userRouter = require("./Routes/UserRouter")
 const adminRouter = require('./Routes/adminRouter')
 
 app.use(cors())
